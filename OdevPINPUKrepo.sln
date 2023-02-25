@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdevPINPUKrepo", "OdevPINPUKrepo\OdevPINPUKrepo.csproj", "{E96FFB67-3D48-474E-A0B6-2A0F1FA6FA96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E96FFB67-3D48-474E-A0B6-2A0F1FA6FA96}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E96FFB67-3D48-474E-A0B6-2A0F1FA6FA96}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E96FFB67-3D48-474E-A0B6-2A0F1FA6FA96}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E96FFB67-3D48-474E-A0B6-2A0F1FA6FA96}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B083F0-97AB-477C-AA0A-256755FF62D1}
+	EndGlobalSection
+EndGlobal
