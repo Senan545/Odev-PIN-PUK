@@ -23,7 +23,28 @@ namespace OdevPINPUKrepo
                     {
                         Console.Write("Yanlış PIN Girdiniz, PIN Hakkınız Kalmadı.\n");
 
-                       
+                        for (int PUKhakki = 9; PUKhakki >= 0; PUKhakki--)
+                        {
+                            Console.Write("\nTelefonunu açmak için PUK Kodunu Giriniz: ");
+
+                            girilenPUK = int.Parse(Console.ReadLine());
+
+                            if (girilenPUK != dogruPUK)
+                            {
+                                if (PUKhakki == 0)
+                                {
+                                    Console.Write("Yanlış PUK Kodu Girdiniz, PUK Hakkınız Kalmadı.\n");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Yanlış PUK Kodu Girdiniz. {0} Hakkınız Kaldı\n", PUKhakki);
+                                }
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
                     }
                     else
                     {
